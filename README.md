@@ -32,7 +32,7 @@ to push the values between 0 and 1. I used no normalization or dropout as I was 
 at all. The loss function I used was mean squared error because this was a regression problem not a classification problem. The optimizer I used
 was Adam because we were shown in class that it will likely work better than something like SGD. 
 
-Since this isn’t a classification task there is no accuracy, but the testing average loss was .2142 while the validation average loss was .2040. 
+Since this isn’t a classification task there is no accuracy, but the testing average loss was .2143 while the validation average loss was .2040. 
 Since the network always predicts the same things, I think it just so happens that the validation data tends to be closer to that one output.
 
 I now want to discuss all the things I tried to get it to work. I tried adding dropout and normalization. I tried reducing the number of convolution
