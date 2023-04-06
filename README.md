@@ -49,9 +49,9 @@ issue of the same output. I used 3 convolution layers followed by dropout and ma
 problem and it gave me that as a possibility. I used a dropout rate of .3 because that was on the lower end of what chatgpt said might be a good range
 for dropout. I then followed this up with one fully connected layer. I tried to keep the number of weights in the network low because I only have around
 4000 data points. This network did make predictions based on the input data. This is the network created in the RawPercentageConvolution.ipynb file.
-I had the network predict the percentage like 8 not .8 and my average training loss was 11.17  while my validation average loss was 15.82 The validation
+I had the network predict the percentage like 8 not .8 and my average training loss was 11.31  while my validation average loss was 15.82 The validation
 loss was higher as it was obviously predicting things it hadn’t seen before, but the average training loss and prediction loss were not that far off from
-each other.The loss of 13.90 is not very good. When you generate responses it almost seems like they are just random. When you set the learning rate high 
+each other.The loss of 15.80 is not very good. When you generate responses it almost seems like they are just random. When you set the learning rate high 
 on this model, the same thing happens as the other models and everything is predicted to be the same.
 
 WIth either of these models I will not be trying to get the losses closer together and to generalize better because I will be changing my project to
