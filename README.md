@@ -1,13 +1,22 @@
 How to run:
 Get these files into a google drive directory titled Neural Networks Project:
+
 ConvolutionTry.ipynb
+
 RawPercentageConvolution.ipynb
+
 input _data.csv
-output_data .csv
+
+output_data.csv
+
 input _data_conv.csv
+
 output_data_conv.csv
+
 Convolution_best_model_conv.pth
+
 Convolution_best_model.pth
+
 To get the output for one validation sample for which ever ipynb file you want to run, run all cells before the cell titled “The main training and evaluation code starts here” and the one after. The one after will give you an output from a validation sample and its ground truth value
 
 	
